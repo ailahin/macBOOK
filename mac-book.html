@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        section{
+            
+            display: flex;
+            padding: 20px;
+            
+        } 
+    
+    img{
+            width: 70%;
+        }
+
+    .image-section{
+            width: 40%;
+            margin-left: 100px;
+            
+        }
+
+    .details-Section{
+            width: 40%;
+            margin-left: 50px;
+        }
+
+    .prices{
+
+            margin-top: 100px;
+        }
+
+    .text-title{
+        font-weight:bold;
+    }
+
+    #dollar-sign{
+        margin-left: 200px;
+    }
+
+
+    .price-list{
+        margin-right: 100px ;
+        border-bottom: 1px solid rgb(29, 26, 26);
+    }
+    .total-amount {
+        font-weight:bold;
+        font-size: larger;
+    }
+
+      
+
+    </style>
+    
+</head>
+
+
+
+<body>
+
+   <header>
+
+   </header>
+
+    
+
+
+<main>
+
+   
+
+    <section>
+
+        <div class="image-section">
+            <H3>
+                <img src="mac.png" alt="">
+            </H3>
+        </div>
+
+
+        
+
+        <div class="details-Section">
+           
+            <div >
+                <h1 class="text-title" > Customize Your Blue 24-inch iMAc with Apple M1 chip</H1>
+
+                <p> The do-it-all notebook gets do-the-unbelievable memory. The M1 chip brings up to 16GB of superfast unified memory. This single pool of high-bandwidth, low-latency memory allows apps to share data between the CPU, GPU, and Neural Engine efficiently — so everything you do is fast and fluid.</p>
+            </div>
+
+            <div>
+
+                <H3> Memory</H3>
+               <!-- <button onclick="changeCost()" id="8GB-memory-button">  8GB unified memory</button> -->
+
+               <button id="8GB-memory-button" >  8GB unified memory</button>
+              <button id="16GB-memory-button"> 16GB unified memory </button>
+                
+
+
+            </div>
+
+            <div>
+                <H3> Storage </H3>
+                <button id="265GB-storage"> 265GB SSD storage</button>
+                <button id="500GB-storage"> 500GB SSD storage</button>
+                <button id="1TB-storage"> 1TB SSD storage</button>
+
+
+
+            </div>
+
+            <div>
+                <h3> Choose your delivery option</h3>
+
+                <button id="Free-delivery"> Fri, Aug 25 FREE </button>
+                <button id="paid-delivery" > Fri, Aug 21 charge £20</button>
+
+            </div>
+
+            
+
+       
+            <div >
+                <p class="price-list" >
+                    Best Price <span id="dollar-sign" > $ <span id="best-price"> 1290</span>  <br>
+
+                    Extra Memory Cost <span id="dollar-sign" > $ <span id="memory-cost"> 0</span> <br>
+
+                    Extra Storage Cost <span id="dollar-sign" > $ <span id="storage-cost"> 0</span> <br>
+
+                    Delivery Charge <span id="dollar-sign" > $ <span id="delivery-charge"> 0</span> 
+                </p>
+
+                <p class="total-amount">
+                
+                    Total Price:<span id="dollar" > $ <span id="total-price" >1290</span> 
+
+                </p>
+
+            
+            </div>
+
+
+        </div>
+    
+
+
+    </section>
+
+</main>  
+
+
+</body>
+<script src="mac-book.js"></script>
+
+<!-- <script>
+     function changeCost(){
+        document.getElementById("memory-cost").innerHTML = 120;
+    }
+</script>
+ -->
+
+   
+</html>
